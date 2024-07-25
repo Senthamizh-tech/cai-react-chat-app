@@ -1,0 +1,18 @@
+.ChatWidgetIcon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ee6e46;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ChatWidgetIconText {
+    color: white;
+    font-size: 15px;
+    margin-left: 5px;
+}
