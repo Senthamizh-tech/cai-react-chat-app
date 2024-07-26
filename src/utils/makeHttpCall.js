@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const makeHttpCall = async (method, url, data = null, headers = {}) => {
+const makeHttpCall = async ({method, url, data = null, headers = {}}) => {
     try {
         const response = await axios({
             method,
