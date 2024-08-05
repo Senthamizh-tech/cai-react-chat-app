@@ -5,7 +5,7 @@ import './HomePage.css';
 const HomePage = () => {
 
     const handleOnClick = () => {
-        window.open("http://localhost:3000/preChatForm", "", "width=400, height=550");
+        window.open("https://cai-react-chat-app.onrender.com/preChatForm", "", "width=400, height=550");
     }
 
     return (
